@@ -603,7 +603,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><code>POST</code> 요청으로 회원가입을 할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-create_http_request"><a class="link" href="#resources-members-create_http_request">HTTP request</a></h4>
+<h4 id="resources-members-create_http_request"><a class="link" href="#resources-members-create_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/members HTTP/1.1
@@ -620,7 +620,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-create_http_response"><a class="link" href="#resources-members-create_http_response">Example response</a></h4>
+<h4 id="resources-members-create_http_response"><a class="link" href="#resources-members-create_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 201 Created
@@ -778,7 +778,7 @@ Content-Length: 129
 <p><code>GET</code> 요청으로 이메일 중복체크를 할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-email-check_http_request"><a class="link" href="#resources-members-email-check_http_request">HTTP request</a></h4>
+<h4 id="resources-members-email-check_http_request"><a class="link" href="#resources-members-email-check_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/members/member3@email.com/exists HTTP/1.1
@@ -787,7 +787,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-email-check_http_response"><a class="link" href="#resources-members-email-check_http_response">Example response</a></h4>
+<h4 id="resources-members-email-check_http_response"><a class="link" href="#resources-members-email-check_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -832,7 +832,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>POST</code> 요청으로 로그인할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-loin_http_request"><a class="link" href="#resources-members-loin_http_request">HTTP request</a></h4>
+<h4 id="resources-members-loin_http_request"><a class="link" href="#resources-members-loin_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/members/login HTTP/1.1
@@ -848,7 +848,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-loin_http_response"><a class="link" href="#resources-members-loin_http_response">Example response</a></h4>
+<h4 id="resources-members-loin_http_response"><a class="link" href="#resources-members-loin_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -984,7 +984,7 @@ Content-Length: 260
 <p><code>GET</code> 요청으로 사용자 정보 조회를 할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-get_http_request"><a class="link" href="#resources-members-get_http_request">HTTP request</a></h4>
+<h4 id="resources-members-get_http_request"><a class="link" href="#resources-members-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/members/me HTTP/1.1
@@ -994,7 +994,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-get_http_response"><a class="link" href="#resources-members-get_http_response">Example response</a></h4>
+<h4 id="resources-members-get_http_response"><a class="link" href="#resources-members-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -1113,7 +1113,7 @@ Content-Length: 135
 <p><code>PATCH</code> 요청으로 사용자 정보를 업데이트할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-update_http_request"><a class="link" href="#resources-members-update_http_request">HTTP request</a></h4>
+<h4 id="resources-members-update_http_request"><a class="link" href="#resources-members-update_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">PATCH /api/members HTTP/1.1
@@ -1129,7 +1129,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-update_http_response"><a class="link" href="#resources-members-update_http_response">Example response</a></h4>
+<h4 id="resources-members-update_http_response"><a class="link" href="#resources-members-update_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -1276,7 +1276,7 @@ Content-Length: 136
 <p><code>POST</code> 요청으로 현재 사용자의 프로필 사진을 바꿀수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-change-profile_http_request"><a class="link" href="#resources-members-change-profile_http_request">HTTP request</a></h4>
+<h4 id="resources-members-change-profile_http_request"><a class="link" href="#resources-members-change-profile_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/members/profile-image HTTP/1.1
@@ -1294,7 +1294,7 @@ ProfileImageFile
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-change-profile_http_response"><a class="link" href="#resources-members-change-profile_http_response">Example response</a></h4>
+<h4 id="resources-members-change-profile_http_response"><a class="link" href="#resources-members-change-profile_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -1438,7 +1438,7 @@ Content-Length: 222
 <p><code>GET</code> 요청으로 사용자가 가입한 커뮤니티 정보를 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-communities-get_http_request"><a class="link" href="#resources-members-communities-get_http_request">HTTP request</a></h4>
+<h4 id="resources-members-communities-get_http_request"><a class="link" href="#resources-members-communities-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/members/communities?page=0&amp;size=10&amp;sort=joinedAt%2Cdesc HTTP/1.1
@@ -1448,7 +1448,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-communities-get_http_response"><a class="link" href="#resources-members-communities-get_http_response">Example response</a></h4>
+<h4 id="resources-members-communities-get_http_response"><a class="link" href="#resources-members-communities-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -1817,7 +1817,7 @@ Content-Length: 2524
 <p><code>GET</code> 요청으로 사용자가 가입한 모든 커뮤니티의 모든 게시글을 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-members-posts-get_http_request"><a class="link" href="#resources-members-posts-get_http_request">HTTP request</a></h4>
+<h4 id="resources-members-posts-get_http_request"><a class="link" href="#resources-members-posts-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/members/posts?page=0&amp;size=10&amp;sort=createdAt%2Cdesc HTTP/1.1
@@ -1827,7 +1827,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-members-posts-get_http_response"><a class="link" href="#resources-members-posts-get_http_response">Example response</a></h4>
+<h4 id="resources-members-posts-get_http_response"><a class="link" href="#resources-members-posts-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -2386,7 +2386,7 @@ Content-Length: 6328
 <p><code>POST</code> 요청으로 커뮤니티를 생성할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-create_http_request"><a class="link" href="#resources-communities-create_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-create_http_request"><a class="link" href="#resources-communities-create_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities HTTP/1.1
@@ -2421,7 +2421,7 @@ thumbNailImage
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-create_http_response"><a class="link" href="#resources-communities-create_http_response">Example response</a></h4>
+<h4 id="resources-communities-create_http_response"><a class="link" href="#resources-communities-create_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 201 Created
@@ -2629,7 +2629,7 @@ Content-Length: 446
 <p><code>GET</code> 요청으로 커뮤니티 이름 중복체크를 할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-email-check_http_request"><a class="link" href="#resources-communities-email-check_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-email-check_http_request"><a class="link" href="#resources-communities-email-check_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/Communtiy1/exists HTTP/1.1
@@ -2639,7 +2639,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-email-check_http_response"><a class="link" href="#resources-communities-email-check_http_response">Example response</a></h4>
+<h4 id="resources-communities-email-check_http_response"><a class="link" href="#resources-communities-email-check_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -2705,7 +2705,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>GET</code> 요청으로 커뮤니티를 단건 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-get_http_request"><a class="link" href="#resources-communities-get_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-get_http_request"><a class="link" href="#resources-communities-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/113 HTTP/1.1
@@ -2715,7 +2715,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-get_http_response"><a class="link" href="#resources-communities-get_http_response">Example response</a></h4>
+<h4 id="resources-communities-get_http_response"><a class="link" href="#resources-communities-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -2886,7 +2886,7 @@ Content-Length: 447
 <p><code>GET</code> 요청으로 모든 커뮤니티를 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-query_http_request"><a class="link" href="#resources-communities-query_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-query_http_request"><a class="link" href="#resources-communities-query_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities?page=0&amp;size=10&amp;sort=memberCount%2Cdesc&amp;search=com HTTP/1.1
@@ -2896,7 +2896,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-query_http_response"><a class="link" href="#resources-communities-query_http_response">Example response</a></h4>
+<h4 id="resources-communities-query_http_response"><a class="link" href="#resources-communities-query_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -3269,7 +3269,7 @@ Content-Length: 2825
 <p><code>POST</code> 요청으로 커뮤니티를 수정할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-update_http_request"><a class="link" href="#resources-communities-update_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-update_http_request"><a class="link" href="#resources-communities-update_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities/112/edit HTTP/1.1
@@ -3300,7 +3300,7 @@ thumbNailImage
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-update_http_response"><a class="link" href="#resources-communities-update_http_response">Example response</a></h4>
+<h4 id="resources-communities-update_http_response"><a class="link" href="#resources-communities-update_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -3525,7 +3525,7 @@ Content-Length: 443
 <p><code>POST</code> 요청으로 커뮤니티에 가입할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-join_http_request"><a class="link" href="#resources-communities-join_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-join_http_request"><a class="link" href="#resources-communities-join_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities/115/join HTTP/1.1
@@ -3535,7 +3535,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-join_http_response"><a class="link" href="#resources-communities-join_http_response">Example response</a></h4>
+<h4 id="resources-communities-join_http_response"><a class="link" href="#resources-communities-join_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -3601,7 +3601,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>POST</code> 요청으로 커뮤니티를 탈퇴할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-withdraw_http_request"><a class="link" href="#resources-communities-withdraw_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-withdraw_http_request"><a class="link" href="#resources-communities-withdraw_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities/114/withdraw HTTP/1.1
@@ -3611,7 +3611,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-withdraw_http_response"><a class="link" href="#resources-communities-withdraw_http_response">Example response</a></h4>
+<h4 id="resources-communities-withdraw_http_response"><a class="link" href="#resources-communities-withdraw_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -3677,7 +3677,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>GET</code> 요청으로 커뮤니티의 모든 사용자을 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-members-query_http_request"><a class="link" href="#resources-communities-members-query_http_request">HTTP request</a></h4>
+<h4 id="resources-communities-members-query_http_request"><a class="link" href="#resources-communities-members-query_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/108/members?page=0&amp;size=10&amp;sort=joinedAt%2Cdesc HTTP/1.1
@@ -3687,7 +3687,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-communities-members-query_http_response"><a class="link" href="#resources-communities-members-query_http_response">Example response</a></h4>
+<h4 id="resources-communities-members-query_http_response"><a class="link" href="#resources-communities-members-query_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -4029,7 +4029,7 @@ Content-Length: 989
 <p><code>POST</code> 요청으로 게시글을 작성할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-create_http_request"><a class="link" href="#resources-posts-create_http_request">HTTP request</a></h4>
+<h4 id="resources-posts-create_http_request"><a class="link" href="#resources-posts-create_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities/12/posts HTTP/1.1
@@ -4056,7 +4056,7 @@ image
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-create_http_response"><a class="link" href="#resources-posts-create_http_response">Example response</a></h4>
+<h4 id="resources-posts-create_http_response"><a class="link" href="#resources-posts-create_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 201 Created
@@ -4305,7 +4305,7 @@ Content-Length: 539
 <p><code>GET</code> 요청으로 게시글을 단건 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-get_http_request"><a class="link" href="#resources-posts-get_http_request">HTTP request</a></h4>
+<h4 id="resources-posts-get_http_request"><a class="link" href="#resources-posts-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/7/posts/9 HTTP/1.1
@@ -4315,7 +4315,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-get_http_response"><a class="link" href="#resources-posts-get_http_response">Example response</a></h4>
+<h4 id="resources-posts-get_http_response"><a class="link" href="#resources-posts-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -4521,7 +4521,7 @@ Content-Length: 537
 <p><code>GET</code> 요청으로 커뮤니티의 모든 게시글을 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-query_http_request"><a class="link" href="#resources-posts-query_http_request">HTTP request</a></h4>
+<h4 id="resources-posts-query_http_request"><a class="link" href="#resources-posts-query_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/17/posts?page=0&amp;size=10&amp;sort=createdAt%2Cdesc HTTP/1.1
@@ -4531,7 +4531,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-query_http_response"><a class="link" href="#resources-posts-query_http_response">Example response</a></h4>
+<h4 id="resources-posts-query_http_response"><a class="link" href="#resources-posts-query_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -5019,7 +5019,7 @@ Content-Length: 3985
 <p><code>DELETE</code> 요청으로 게시글을 삭제할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-delete_http_request"><a class="link" href="#resources-posts-delete_http_request">HTTP request</a></h4>
+<h4 id="resources-posts-delete_http_request"><a class="link" href="#resources-posts-delete_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">DELETE /api/communities/37/posts/39 HTTP/1.1
@@ -5029,7 +5029,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-posts-delete_http_response"><a class="link" href="#resources-posts-delete_http_response">Example response</a></h4>
+<h4 id="resources-posts-delete_http_response"><a class="link" href="#resources-posts-delete_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -5104,7 +5104,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>POST</code> 요청으로 댓글을 작성할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-create_http_request"><a class="link" href="#resources-comments-create_http_request">HTTP request</a></h4>
+<h4 id="resources-comments-create_http_request"><a class="link" href="#resources-comments-create_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">POST /api/communities/88/posts/89/comments HTTP/1.1
@@ -5121,7 +5121,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-create_http_response"><a class="link" href="#resources-comments-create_http_response">Example response</a></h4>
+<h4 id="resources-comments-create_http_response"><a class="link" href="#resources-comments-create_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 201 Created
@@ -5325,7 +5325,7 @@ Content-Length: 201
 <p><code>GET</code> 요청으로 댓글을 단건 조회할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-get_http_request"><a class="link" href="#resources-comments-get_http_request">HTTP request</a></h4>
+<h4 id="resources-comments-get_http_request"><a class="link" href="#resources-comments-get_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/80/posts/81/comments/1 HTTP/1.1
@@ -5335,7 +5335,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-get_http_response"><a class="link" href="#resources-comments-get_http_response">Example response</a></h4>
+<h4 id="resources-comments-get_http_response"><a class="link" href="#resources-comments-get_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -5572,7 +5572,7 @@ Content-Length: 829
 단, 부모 댓글만 조회하고, 부모댓글에 연관된 자식 댓글의 수를 표시한다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-query_http_request"><a class="link" href="#resources-comments-query_http_request">HTTP request</a></h4>
+<h4 id="resources-comments-query_http_request"><a class="link" href="#resources-comments-query_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">GET /api/communities/96/posts/97/comments?page=0&amp;size=10&amp;sort=createdAt%2Cdesc HTTP/1.1
@@ -5582,7 +5582,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-query_http_response"><a class="link" href="#resources-comments-query_http_response">Example response</a></h4>
+<h4 id="resources-comments-query_http_response"><a class="link" href="#resources-comments-query_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -6013,7 +6013,7 @@ Content-Length: 2548
 부모 댓글을 삭제하면 자식 댓글까지 삭제 된다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-delete_http_request"><a class="link" href="#resources-comments-delete_http_request">HTTP request</a></h4>
+<h4 id="resources-comments-delete_http_request"><a class="link" href="#resources-comments-delete_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">DELETE /api/communities/84/posts/85/comments/6 HTTP/1.1
@@ -6023,7 +6023,7 @@ Host: localhost:8080</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-delete_http_response"><a class="link" href="#resources-comments-delete_http_response">Example response</a></h4>
+<h4 id="resources-comments-delete_http_response"><a class="link" href="#resources-comments-delete_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 204 No Content
@@ -6097,7 +6097,7 @@ X-Frame-Options: DENY</code></pre>
 <p><code>PATCH</code> 요청으로 댓글을 수정할 수 있다.</p>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-update_http_request"><a class="link" href="#resources-comments-update_http_request">HTTP request</a></h4>
+<h4 id="resources-comments-update_http_request"><a class="link" href="#resources-comments-update_http_request">Request</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">PATCH /api/communities/92/posts/93/comments/10 HTTP/1.1
@@ -6113,7 +6113,7 @@ Host: localhost:8080
 </div>
 </div>
 <div class="sect3">
-<h4 id="resources-comments-update_http_response"><a class="link" href="#resources-comments-update_http_response">Example response</a></h4>
+<h4 id="resources-comments-update_http_response"><a class="link" href="#resources-comments-update_http_response">Response</a></h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight nowrap"><code class="language-http hljs" data-lang="http">HTTP/1.1 200 OK
@@ -6308,7 +6308,7 @@ Content-Length: 191
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-06-16 19:21:48 +0900
+Last updated 2021-06-16 19:30:46 +0900
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">

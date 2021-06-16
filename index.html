@@ -451,264 +451,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#resources-members">사용자(Members) API</a>
 <ul class="sectlevel2">
-<li><a href="#resources-members-create">회원 가입</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-create_http_request">HTTP request</a></li>
-<li><a href="#resources-members-create_http_response">Example response</a></li>
-<li><a href="#resources-members-create_request_headers">Request headers</a></li>
-<li><a href="#resources-members-create_request_fields">Request fields</a></li>
-<li><a href="#resources-members-create_response_headers">Response headers</a></li>
-<li><a href="#resources-members-create_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-email-check">이메일 중복체크</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-email-check_http_request">HTTP request</a></li>
-<li><a href="#resources-members-email-check_http_response">Example response</a></li>
-<li><a href="#resources-members-email-check_path_parameters">Path parameters</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-loin">로그인</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-loin_http_request">HTTP request</a></li>
-<li><a href="#resources-members-loin_http_response">Example response</a></li>
-<li><a href="#resources-members-loin_request_headers">Request headers</a></li>
-<li><a href="#resources-members-loin_request_fields">Request fields</a></li>
-<li><a href="#resources-members-loin_response_headers">Response headers</a></li>
-<li><a href="#resources-members-loin_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-get">사용자 정보 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-get_http_request">HTTP request</a></li>
-<li><a href="#resources-members-get_http_response">Example response</a></li>
-<li><a href="#resources-members-get_request_headers">Request headers</a></li>
-<li><a href="#resources-members-get_response_headers">Response headers</a></li>
-<li><a href="#resources-members-get_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-update">사용자 정보 업데이트</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-update_http_request">HTTP request</a></li>
-<li><a href="#resources-members-update_http_response">Example response</a></li>
-<li><a href="#resources-members-update_request_headers">Request headers</a></li>
-<li><a href="#resources-members-update_request_fields">Request fields</a></li>
-<li><a href="#resources-members-update_response_headers">Response headers</a></li>
-<li><a href="#resources-members-update_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-change-profile">사용자 프로필 사진 변경</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-change-profile_http_request">HTTP request</a></li>
-<li><a href="#resources-members-change-profile_http_response">Example response</a></li>
-<li><a href="#resources-members-change-profile_request_headers">Request headers</a></li>
-<li><a href="#resources-members-change-profile_request_parts">Request parts</a></li>
-<li><a href="#resources-members-change-profile_response_headers">Response headers</a></li>
-<li><a href="#resources-members-change-profile_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-communities-get">사용자가 가입한 커뮤니티 정보 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-communities-get_http_request">HTTP request</a></li>
-<li><a href="#resources-members-communities-get_http_response">Example response</a></li>
-<li><a href="#resources-members-communities-get_request_headers">Request headers</a></li>
-<li><a href="#resources-members-communities-get_request_parameters">Request parameters</a></li>
-<li><a href="#resources-members-communities-get_response_headers">Response headers</a></li>
-<li><a href="#resources-members-communities-get_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-members-posts-get">사용자가 가입한 모든 커뮤니티의 모든 게시글 조회(Feeds)</a>
-<ul class="sectlevel3">
-<li><a href="#resources-members-posts-get_http_request">HTTP request</a></li>
-<li><a href="#resources-members-posts-get_http_response">Example response</a></li>
-<li><a href="#resources-members-posts-get_request_headers">Request headers</a></li>
-<li><a href="#resources-members-posts-get_request_parameters">Request parameters</a></li>
-<li><a href="#resources-members-posts-get_response_headers">Response headers</a></li>
-<li><a href="#resources-members-posts-get_response_fields">Response fields</a></li>
-</ul>
-</li>
+<li><a href="#resources-members-create">회원 가입</a></li>
+<li><a href="#resources-members-email-check">이메일 중복체크</a></li>
+<li><a href="#resources-members-loin">로그인</a></li>
+<li><a href="#resources-members-get">사용자 정보 조회</a></li>
+<li><a href="#resources-members-update">사용자 정보 업데이트</a></li>
+<li><a href="#resources-members-change-profile">사용자 프로필 사진 변경</a></li>
+<li><a href="#resources-members-communities-get">사용자가 가입한 커뮤니티 정보 조회</a></li>
+<li><a href="#resources-members-posts-get">사용자가 가입한 모든 커뮤니티의 모든 게시글 조회(Feeds)</a></li>
 </ul>
 </li>
 <li><a href="#resources-communities">커뮤니티(Communities) API</a>
 <ul class="sectlevel2">
-<li><a href="#resources-communities-create">커뮤니티 생성</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-create_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-create_http_response">Example response</a></li>
-<li><a href="#resources-communities-create_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-create_request_parameters">Request parameters</a></li>
-<li><a href="#resources-communities-create_request_parts">Request parts</a></li>
-<li><a href="#resources-communities-create_response_headers">Response headers</a></li>
-<li><a href="#resources-communities-create_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-email-check">커뮤니티 이름 중복체크</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-email-check_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-email-check_http_response">Example response</a></li>
-<li><a href="#resources-communities-email-check_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-email-check_path_parameters">Path parameters</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-get">커뮤니티 단건 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-get_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-get_http_response">Example response</a></li>
-<li><a href="#resources-communities-get_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-get_path_parameters">Path parameters</a></li>
-<li><a href="#resources-communities-get_response_headers">Response headers</a></li>
-<li><a href="#resources-communities-get_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-query">모든 커뮤니티 정보 조회(검색)</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-query_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-query_http_response">Example response</a></li>
-<li><a href="#resources-communities-query_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-query_request_parameters">Request parameters</a></li>
-<li><a href="#resources-communities-query_response_headers">Response headers</a></li>
-<li><a href="#resources-communities-query_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-update">커뮤니티 수정</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-update_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-update_http_response">Example response</a></li>
-<li><a href="#resources-communities-update_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-update_path_parameters">Path parameters</a></li>
-<li><a href="#resources-communities-update_request_parameters">Request parameters</a></li>
-<li><a href="#resources-communities-update_request_parts">Request parts</a></li>
-<li><a href="#resources-communities-update_response_headers">Response headers</a></li>
-<li><a href="#resources-communities-update_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-join">커뮤니티 가입</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-join_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-join_http_response">Example response</a></li>
-<li><a href="#resources-communities-join_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-join_path_parameters">Path parameters</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-withdraw">커뮤니티 탈퇴</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-withdraw_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-withdraw_http_response">Example response</a></li>
-<li><a href="#resources-communities-withdraw_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-withdraw_path_parameters">Path parameters</a></li>
-</ul>
-</li>
-<li><a href="#resources-communities-members-query">커뮤니티 모든 사용자 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-communities-members-query_http_request">HTTP request</a></li>
-<li><a href="#resources-communities-members-query_http_response">Example response</a></li>
-<li><a href="#resources-communities-members-query_request_headers">Request headers</a></li>
-<li><a href="#resources-communities-members-query_path_parameters">Path parameters</a></li>
-<li><a href="#resources-communities-members-query_request_parameters">Request parameters</a></li>
-<li><a href="#resources-communities-members-query_response_headers">Response headers</a></li>
-<li><a href="#resources-communities-members-query_response_fields">Response fields</a></li>
-</ul>
-</li>
+<li><a href="#resources-communities-create">커뮤니티 생성</a></li>
+<li><a href="#resources-communities-email-check">커뮤니티 이름 중복체크</a></li>
+<li><a href="#resources-communities-get">커뮤니티 단건 조회</a></li>
+<li><a href="#resources-communities-query">모든 커뮤니티 정보 조회(검색)</a></li>
+<li><a href="#resources-communities-update">커뮤니티 수정</a></li>
+<li><a href="#resources-communities-join">커뮤니티 가입</a></li>
+<li><a href="#resources-communities-withdraw">커뮤니티 탈퇴</a></li>
+<li><a href="#resources-communities-members-query">커뮤니티 모든 사용자 조회</a></li>
 </ul>
 </li>
 <li><a href="#resources-posts">게시글(Posts) API</a>
 <ul class="sectlevel2">
-<li><a href="#resources-posts-create">게시글 작성</a>
-<ul class="sectlevel3">
-<li><a href="#resources-posts-create_http_request">HTTP request</a></li>
-<li><a href="#resources-posts-create_http_response">Example response</a></li>
-<li><a href="#resources-posts-create_request_headers">Request headers</a></li>
-<li><a href="#resources-posts-create_path_parameters">Path parameters</a></li>
-<li><a href="#resources-posts-create_request_parameters">Request parameters</a></li>
-<li><a href="#resources-posts-create_request_parts">Request parts</a></li>
-<li><a href="#resources-posts-create_response_headers">Response headers</a></li>
-<li><a href="#resources-posts-create_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-posts-get">게시글 단건 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-posts-get_http_request">HTTP request</a></li>
-<li><a href="#resources-posts-get_http_response">Example response</a></li>
-<li><a href="#resources-posts-get_request_headers">Request headers</a></li>
-<li><a href="#resources-posts-get_path_parameters">Path parameters</a></li>
-<li><a href="#resources-posts-get_response_headers">Response headers</a></li>
-<li><a href="#resources-posts-get_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-posts-query">커뮤니티의 모든 게시글 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-posts-query_http_request">HTTP request</a></li>
-<li><a href="#resources-posts-query_http_response">Example response</a></li>
-<li><a href="#resources-posts-query_request_headers">Request headers</a></li>
-<li><a href="#resources-posts-query_path_parameters">Path parameters</a></li>
-<li><a href="#resources-posts-query_request_parameters">Request parameters</a></li>
-<li><a href="#resources-posts-query_response_headers">Response headers</a></li>
-<li><a href="#resources-posts-query_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-posts-delete">게시글 삭제</a>
-<ul class="sectlevel3">
-<li><a href="#resources-posts-delete_http_request">HTTP request</a></li>
-<li><a href="#resources-posts-delete_http_response">Example response</a></li>
-<li><a href="#resources-posts-delete_request_headers">Request headers</a></li>
-<li><a href="#resources-posts-delete_path_parameters">Path parameters</a></li>
-</ul>
-</li>
+<li><a href="#resources-posts-create">게시글 작성</a></li>
+<li><a href="#resources-posts-get">게시글 단건 조회</a></li>
+<li><a href="#resources-posts-query">커뮤니티의 모든 게시글 조회</a></li>
+<li><a href="#resources-posts-delete">게시글 삭제</a></li>
 </ul>
 </li>
 <li><a href="#resources-comments">댓글(Comments) API</a>
 <ul class="sectlevel2">
-<li><a href="#resources-comments-create">댓글 작성</a>
-<ul class="sectlevel3">
-<li><a href="#resources-comments-create_http_request">HTTP request</a></li>
-<li><a href="#resources-comments-create_http_response">Example response</a></li>
-<li><a href="#resources-comments-create_request_headers">Request headers</a></li>
-<li><a href="#resources-comments-create_path_parameters">Path parameters</a></li>
-<li><a href="#resources-comments-create_request_fields">Request fields</a></li>
-<li><a href="#resources-comments-create_response_headers">Response headers</a></li>
-<li><a href="#resources-comments-create_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-comments-get">댓글 단건 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-comments-get_http_request">HTTP request</a></li>
-<li><a href="#resources-comments-get_http_response">Example response</a></li>
-<li><a href="#resources-comments-get_request_headers">Request headers</a></li>
-<li><a href="#resources-comments-get_path_parameters">Path parameters</a></li>
-<li><a href="#resources-comments-get_response_headers">Response headers</a></li>
-<li><a href="#resources-comments-get_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-comments-query">댓글 복수건 조회</a>
-<ul class="sectlevel3">
-<li><a href="#resources-comments-query_http_request">HTTP request</a></li>
-<li><a href="#resources-comments-query_http_response">Example response</a></li>
-<li><a href="#resources-comments-query_request_headers">Request headers</a></li>
-<li><a href="#resources-comments-query_path_parameters">Path parameters</a></li>
-<li><a href="#resources-comments-query_request_parameters">Request parameters</a></li>
-<li><a href="#resources-comments-query_response_headers">Response headers</a></li>
-<li><a href="#resources-comments-query_response_fields">Response fields</a></li>
-</ul>
-</li>
-<li><a href="#resources-comments-delete">댓글 삭제</a>
-<ul class="sectlevel3">
-<li><a href="#resources-comments-delete_http_request">HTTP request</a></li>
-<li><a href="#resources-comments-delete_http_response">Example response</a></li>
-<li><a href="#resources-comments-delete_request_headers">Request headers</a></li>
-<li><a href="#resources-comments-delete_path_parameters">Path parameters</a></li>
-</ul>
-</li>
-<li><a href="#resources-comments-update">댓글 수정</a>
-<ul class="sectlevel3">
-<li><a href="#resources-comments-update_http_request">HTTP request</a></li>
-<li><a href="#resources-comments-update_http_response">Example response</a></li>
-<li><a href="#resources-comments-update_request_headers">Request headers</a></li>
-<li><a href="#resources-comments-update_path_parameters">Path parameters</a></li>
-<li><a href="#resources-comments-update_request_fields">Request fields</a></li>
-<li><a href="#resources-comments-update_response_headers">Response headers</a></li>
-<li><a href="#resources-comments-update_response_fields">Response fields</a></li>
-</ul>
-</li>
+<li><a href="#resources-comments-create">댓글 작성</a></li>
+<li><a href="#resources-comments-get">댓글 단건 조회</a></li>
+<li><a href="#resources-comments-query">댓글 복수건 조회</a></li>
+<li><a href="#resources-comments-delete">댓글 삭제</a></li>
+<li><a href="#resources-comments-update">댓글 수정</a></li>
 </ul>
 </li>
 </ul>
@@ -6529,7 +6308,7 @@ Content-Length: 191
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-06-16 18:44:09 +0900
+Last updated 2021-06-16 19:21:48 +0900
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">
